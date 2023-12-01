@@ -1,0 +1,89 @@
+<title>menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav_a" href="index.html">home</a>
+            <a class="nav_a" href="login.html">login</a>
+            <a class="nav_a" href="cadastro.html">cadastro</a>
+            <a class="nav_a" href="#">menu</a>
+            
+        </nav>
+        <h1 class="abouth1">bem vindo a sobre page</h1>
+        </header>
+           <main class="mainmenu"> <h1>Cardápio</h1>
+            <h2>Hambúrgueres</h2>
+            <ul>
+                <li>Hambúrguer - R$ 14,50: </li>
+                <li>Pão, bife 200g e alface.</li>
+                <li>X-Burguer - R$ 15,50: </li>
+                <li>Pão, bife 200g, queijo prato e alface.</li>
+                <li>X-Bacon - R$ 18,50: </li>
+                <li>Pão, bife 200g, queijo prato, bacon e alface.</li>
+                <li>Egg X-Burguer - R$ 17,00: </li>
+                <li>Pão, bife 200g, ovo, queijo prato e alface.</li>
+                <li>Egg Bacon - R$ 18,50: </li>
+                <li>Pão, bife 200g, ovo, queijo prato, bacon e alface.</li>
+                <li>X-Tudo - R$ 19,00: </li>
+                <li>Pão, bife 200g, ovo, bacon, queijo prato e alface.</li>
+                <li>Toscana Brasa Burguer - R$ 21,00: </li>
+                <li>Pão, bife 200g, queijo prato, linguiça toscana e cebola assada.</li>
+                <li>Cheddar Burguer Brasa - R$ 19,50: </li>
+                <li>Pão, bife 200g, cheddar cremoso, cebola assada e bacon.</li>
+                <li>Charque Burguer Brasa - R$ 22,00: </li>
+                <li>Pão, bife 200g, queijo coalho, cebola assada e tomate.</li>
+            </ul>
+            
+            <p class="obs">Obs.: todos os lanches acompanham uma porção pequena de batata frita</p>
+            
+            <h2>Bebidas</h2>
+            <ul>
+                <li>Refrigerante lata - R$ 5,50</li>
+                <li>Refrigerante 1L - R$ 8,00</li>
+                <li>Suco - R$ 5,00</li>
+            </ul>
+            
+            <h2>Adicionais</h2>
+            <ul>
+                <li>Ovo - R$ 1,00</li>
+                <li>Charque desfiada - R$ 11,00</li>
+                <li>Cheddar - R$ 7,50</li>
+                <li>Toscana - R$ 7,00</li>
+                <li>Bacon - R$ 5,00</li>
+                <li>Queijo prato - R$ 2,50</li>
+                <li>Bife 200g - R$ 8,00</li>
+                <li>Porção de batata frita grande - R$ 10,00</li>
+            </ul>
+            <h2>Faça seu pedido</h2>
+<form action="processar_pedido.php" method="POST">
+   
+ 
+    <select id="item" name="item" >
+        <option value="">Selecione um item</option>
+        <option value="Hambúrguer">Hambúrguer</option>
+        <option value="X-Burguer">X-Burguer</option>
+        <option value="X-Bacon">X-Bacon</option>
+        <option value="Egg X-Burguer">Egg X-Burguer</option>
+        <option value="Egg Bacon">Egg Bacon</option>
+        <option value="X-Tudo">X-Tudo</option>
+        <option value="Toscana Brasa Burguer">Toscana Brasa Burguer</option>
+        <option value="Cheddar Burguer Brasa">Cheddar Burguer Brasa</option>
+        <option value="Charque Burguer Brasa">Charque Burguer Brasa</option>
+        <option value="Refrigerante lata">Refrigerante lata</option>
+        <option value="Refrigerante 1L">Refrigerante 1L</option>
+        <option value="Suco">Suco</option>
+     
+    </select>
+    <br>
+    <input class="inpt" type="submit" value="Fazer Pedido" >
+    <label class="lb" for="text">adicional:</label>
+    <input type="text" id="text" name="adicional" >
+    <button type="submit" >adicionar</button>
+</form>
+        </main>
+           <footer></footer>
+
+           <script src="script.js"></script>
+</body>
+</html>

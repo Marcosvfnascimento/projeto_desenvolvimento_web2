@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+.nav_a {
+    color: darkorange;
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
+h1, h2 {
+color: darkorange;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+a:hover{
+color: black;
+background-color: aqua;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.title{
+color: darkorange;
+text-transform: uppercase;
+text-align: center;
+margin: 20px;
+}
+
+.logh2{
+text-transform: uppercase;
+
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+}
+
+header {
+background-color: black;
+padding: 10px;
+}
+
+/* atualizacao */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.mainmenu{
+background-color: black;
+/* background-image: url('img/download.png'); */
+}
+#destaque {
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+#destaque h2 {
+color: darkorange;
+margin-bottom: 10px;
+}
+
+#destaque p {
+color: #555;
+margin-bottom: 20px;
+}
+
+#sobre {
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+}
+
+#sobre h2 {
+color: darkorange;
+margin-bottom: 10px;
+}
+
+#sobre p {
+color: #555;
+margin-bottom: 20px;
+}
+
+footer {
+background-color: black;
+padding: 10px;
+color: black;
+text-align: center;
+}
+/* login page */
+#login-form {
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+}
+
+#login-form h2 {
+color: darkorange;
+margin-bottom: 10px;
+}
+ul {
+list-style-type: none;
+margin-bottom: 20px;
+}
+
+li {
+margin-bottom: 5px;
+color: #fff;
+
+}
+.obs{
+color: #fff;
+}
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+label {
+margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+button[type="submit"],.inpt {
+background-color: darkorange;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-transform: uppercase;
+}
+.lb{
+color: #fff;
+text-transform: uppercase;
+margin-top: 5px;
+}
+
+button[type="submit"]:hover {
+background-color: orange;
+}
+/* cadastro page */
+.cadastroh1 {
+color: darkorange;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 20px;
+}
+
+input[type="text"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: #333;
+padding: 10px;
+color: #fff;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav_a {
+color: #fff;
+text-decoration: none;
+margin-right: 10px;
+}
+
+.title {
+color: red;
+font-size: 32px;
+}
+
+#destaque {
+background-color: #f1f1f1;
+padding: 20px;
+}
+
+#sobre {
+border-top: 1px solid #ccc;
+margin-top: 20px;
+}
+
+footer {
+background-color: #333;
+padding: 10px;
+color: #fff;
+text-align: center;
+}
